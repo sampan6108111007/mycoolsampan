@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Top Attraction</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+
+    .w3-quarter img {
+        margin-bottom: -6px;
+        cursor: pointer
+    }
+
+    .w3-quarter img:hover {
+        opacity: 0.6;
+        transition: 0.3s
+    }
+</style>
+
+<body class="w3-light-grey">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;"
+        id="mySidebar">
+        <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
+        <a href="file:///D:/mycoolsampan/index.html#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a>
+        <a href="file:///D:/mycoolsampan/index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT
+            ME</a>
+        <a href="file:///D:/mycoolsampan/index.html#movie" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">MOVIE</a>
+        <a href="file:///D:/mycoolsampan/index.html#MyHome" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">MyHome</a>
+        <a href="file:///D:/mycoolsampan/index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+        <a href="https://github.com/sampan6108111007" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">GITHUB</a>
+        <a href="https://thaiall.github.io/tech100/training61.htm" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Friend</a>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+        <span class="w3-left w3-padding">N A N</span>
+        <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+
+        <!-- Photo grid -->
+        <div class="w3-row w3-grayscale-min">
+            <div class="w3-quarter">
+                <img src="nan0.jpg" style="width:100%" onclick="onClick(this)" alt="นอกจากเมืองยอดฮิตอย่างเชียงใหม่ เชียงราย แม่ฮ่องสอน แล้ว น่าน เป็นอีกหนึ่งจังหวัดทางภาคเหนือที่มีเสน่ห์ไม่น้อย ด้วยความที่เป็นเมืองท่ามกลางหุบเขา มีธรรมชาติสวยงาม อีกทั้งยังอบอวลด้วยกลิ่นอายของศิลปวัฒนธรรมที่โดดเด่นไม่เหมือนใคร สโลว์ไลฟ์กันสุดๆ บอกเลยว่า หากได้มีโอกาสไปเที่ยวน่าน อยากให้อยู่กันนานๆ หน่อย กับ 10 ที่เที่ยว น่าน สุดสโลว์ไลฟ์ อยู่เที่ยวกันนานๆ ">
+                <img src="nan1.jpg" style="width:100%" onclick="onClick(this)" alt="พระธาตุแช่แห้ง ไปเยือนเมืองน่าน ต้องไม่พลาดแวะไปสักการะ พระธาตุแช่แห้ง พระธาตุคู่บ้านคู่เมืองน่าน ตั้งอยู่บนเนินทางฝั่งตะวันออกของแม่น้ำน่าน บริเวณที่เป็นศูนย์กลางเมืองน่านเดิม
+
+                ภายในวัดงดงามไปด้วยสถาปัตกรรมและศิลปกรรมสกุลช่างน่านที่สวยงามและอ่อนช้อย ไม่เหมือนเมืองไหนๆ นอกจากนี้พระธาตุแช่แห้งยังเป็นพระธาตุประจำปีเถาะ ซึ่งชาวล้านนาเชื่อว่า หากได้เดินทางไป “ชุธาตุ” หรือนมัสการพระธาตุประจำปีเกิดจะได้รับอานิสงส์อย่างยิ่ง">
+                <img src="nan22.jpg" style="width:100%" onclick="onClick(this)" alt="บ่อเกลือ สินเธาว์ ณ อำเภอบ่อเกลือ ห่างจากตัวเมืองน่านไปประมาณ 80 กม. เป็นแหล่งผลิตเกลือสินเธาว์ เพราะมีบ่อน้ำเกลือสินเธาว์อยู่ถึง 9 บ่อ และเป็นแหล่งเกลือสินเธาว์ขนาดใหญ่ที่มีความสำคัญมาแต่โบราณ
+
+                ที่นี่สามารถชมบ่อเกลือสินเธาว์ วิธีการผลิตเกลือสินเธาว์แบบดั้งเดิม รวมถึงซื้อผลิตภัณฑ์จากบ่อเกลือ อย่างไข่ต้มน้ำเกลือ เกลือบริโภค เกลือสปาขัดผิว และดอกเกลือบำรุงผิว กลับไปเป็นของฝากได้อีกด้วย">
+            </div>
+
+            <div class="w3-quarter">
+                <img src="nan3.jpg" style="width:100%" onclick="onClick(this)" alt="โฮงเจ้าฟองคำ เที่ยวจังหวัดน่านทั้งที นอกจากชมวัดวาอารามที่มีความสวยงามแล้ว ต้องไม่พลาดชมบ้านเจ้าล้านนาไทยในยุคเก่าที่ถูกอนุรักษ์ไว้ค่อนข้างสมบูรณ์ ถือเป็นมรดกทางวัฒนธรรมที่มีค่ายิ่ง อย่าง โฮงเจ้าฟองคำ ซึ่งเป็นบ้านเจ้าล้านนาไทยฝ่ายเหนืออายุกว่า 100 ปี
+
+                โฮงเจ้าฟองคำเป็นเรือนไม้ทั้งหลัง สถาปัตยกรรมเป็นแบบล้านนาสมัยก่อน จึงสามารถเห็นความเก่าแก่ผ่านตัวบ้านและข้าวของเครื่องใช้ต่างๆ ที่ถูกเก็บไว้ในสภาพที่ค่อนข้างสมบูรณ์ นอกจากนี้โฮวเจ้าฟองคำยังเปิดเป็นที่เรียนรู้เรื่องการทอผ้าพื้นเมืองอีกด้วย">
+                <img src="nan_1.jpg" style="width:100%" onclick="onClick(this)" alt="วัดภูมินทร์ เป็นวัดสวยเมืองน่านตั้งอยู่ที่ตำบลในเวียง ข้างๆ กับข่วงเมืองน่าน ความสวยแปลกของวัดนี้คือ เป็นวัดเพียงหนึ่งเดียวในประเทศไทยที่สร้างทรงจตุรมุข ดูแล้วคล้ายตั้งอยู่บนหลังพญานาคขนาดใหญ่ 2 ตัว อาคารเป็นทั้งพระอุโบสถและพระวิหาร ภายในประดิษฐานพระพุทธรูปขนาดใหญ่ 4 องค์หันออกด้านประตูทั้ง 4 ทิศ
+                จุดเด่นของวัดนอกจากความงามไม่เหมือนวัดใดแล้ว ยังมีภาพจิตรกรรมฝาผนังปู่ม่าย่าม่าน หรือภาพกระซิบรัก อันเลื่องลือ ที่ต้องห้ามพลาดชม">
+                <img src="nan2_1_1.jpg" style="width:100%" onclick="onClick(this)" alt="ขึ้นดอยดูบ่อเกลือสินเธาว์ ชิมสตรอว์เบอร์รี่หวาน ที่เมืองน่าน">
+            </div>
+
+            <div class="w3-quarter">
+                <img src="nan7_1.jpg" style="width:100%" onclick="onClick(this)" alt="ถนนคนเดินเมืองน่าน ถนนคนเดินเมืองเหนือ ใช่ว่าจะมีแต่ที่เชียงใหม่ เชียงราย หรือปาย แม่ฮ่องสอน ที่น่านก็มีเช่นเดียวกัน ถนนคนเดินเมืองน่าน ตั้งอยู่บนถนนผากอง ข้างวัดภูมินทร์และข่างเมืองน่าน เปิดทุกวันเสาร์และอาทิตย์ ตั้งแต่เวลาประมาณ 5 โมงเย็นเป็นต้นไป
+                ถนนคนเดินแห่งนี้อาจไม่ยาวมาก แต่มีของขายที่น่าสนใจ ส่วนใหญ่เป็นของที่ระลึกอันเป็นเอกลักษณ์ของชาวเหนือ ของแฮนด์เมดต่างๆ รวมถึงของอร่อยที่น่าลองชิมทั้งนั้น">
+                <img src="nan8_1.jpg" style="width:100%" onclick="onClick(this)" alt="ซุ้มลีลาวดี อีกหนึ่งสถานที่เมื่อไปเที่ยวน่าน ต้องแวะไปถ่ายภาพเป็นที่ระลึกให้ได้ ที่ ซุ้มลีลาวดี บริเวณด้านหน้าพิพิธภัณฑ์แห่งชาติน่าน ซึ่งปลูกเรียงรายไว้อย่างสวยงาม ต้นลีลาวดีสูงใหญ่แผ่กิ่งก้านสาขา สร้างความร่มรื่น แม้ว่าจะเป็นช่วงที่ดอกลีลาวดียังไม่ผลิบานก็มีความสวยงามไปอีกแบบ">
+                <img src="nan9_1.jpg" style="width:100%" onclick="onClick(this)" alt="ปัว หลบไปใช้ชีวิตแบบช้าๆ กันที่ อ.ปัว จ.น่าน ความสงบเรียบง่ายของที่นี่จะทำให้ต้องตกหลุมรัก โดยเฉพาะบรรยากาศทุ่งนาสีเขียวขจีที่โอบล้อมด้วยภูเขาในช่วงหน้าฝนที่ทุ่งนาต่างก็เขียวชอุ่ม สายฝนโปรยปรายให้สดชื่น
+                ถ้าอยากพักผ่อนแบบชมวิวสวยๆ แบบนี้ มีบ้านพักโฮมสเตย์ให้เลือกหลากหลาย ทั้งโฮมสเตย์ตานงค์ ตูบนาโฮมสเตย์ บ้านหัวน้ำโฮมสเตย์ ต้นแหลงโฮมสเตย์ เป็นต้น">
+            </div>
+
+            <div class="w3-quarter">
+                <img src="nan6.jpg" style="width:100%" onclick="onClick(this)" alt="หอศิลป์ริมน่าน สัมผัสกับกลิ่นอายความเป็นล้านนา พักผ่อนแบบสโลว์ไลฟ์ ด้วยการไปเสพศิลป์ที่ หอศิลป์ริมน่าน สถานที่ที่คนรักศิลปะห้ามพลาดอย่างเด็ดขาด หอศิลป์ริมน่านก่อตั้งโดย วินัย ปราบริปู ศิลปินชาวน่านชื่อดังที่รักในศิลปะ
+                ภายในรวบรวมงานศิลปะของศิลปินไทยร่วมสมัยที่มีผลงานการสร้างสรรค์และรูปแบบที่มีเอกลักษณ์โดดเด่น โดยจะหมุนเวียนกันไปตลอดทั้งปี รวมถึงจัดแสดงนิทรรศการงานศิลปะของคุณวินัย ปราบริปู ไว้ด้วย ซึ่งไฮลท์ที่ห้ามพลาดคือ ภาพฝีพระหัตถ์สมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี ที่ทรงเขียนพระราชทานไว้ที่หอศิลป์ริมน่านแห่งนี้">
+                <img src="nan4_1.jpg" style="width:100%" onclick="onClick(this)" alt="วัดมิ่งเมือง ในบรรดาวัดสวยของจังหวัดน่าน วัดมิ่งเมือง เป็นอีกหนึ่งวัดชื่อดังและเป็นเอกลักษณ์ของน่าน รวมถึงเป็นที่ตั้งของ เสาพระหลักเมืองน่าน ที่ใครไปเที่ยวน่าน ต้องไปไหว้สักการะเพื่อความเป็นสิริมงคล
+                เสาพระหลักเมืองประดิษฐานอยู่ในจตุรมุขสีขาวบริเวณด้านหน้าพระอุโบสถของวัด สามารถแวะไปสักการะได้ทั้ง 4 ทิศ แต่ละทิศจะมีความหมายมงคล จากนั้นเข้าไปสักการะพระประธานภายในอุโบสถ และชมภาพจิตรกรรมฝนังภายใน นอกจากนี้รอบๆ พระอุโบสถยังงดงามไปด้วยลายปูนปั้นสีขาว มีความวิจิตรงดงามไม่แพ้วัดอื่นๆ ของน่านเลย">
+                <img src="nan5_1.jpg" style="width:100%" onclick="onClick(this)" alt="วัดพระธาตุเขาน้อย วัดพระธาตุเขาน้อย ตั้งอยู่บนยอดดอยเขาน้อยทางด้านตะวันตกของตัวเมืองน่าน องค์พระธาตุเป็นเจดีย์ก่ออิฐถือปูนทั้งองค์ งดงามแบบศิลปะพม่าผสมล้านนา ภายในบรรจุพระเกศาธาตุขององค์สมเด็จพระสัมมาสัมพุทธเจ้า เนื่องจากตั้งอยู่บนยอดดอย
+                บริเวณลานปูนพระพุทธรูปปางลีลาองค์ใหญ่ คือ พระพุทธมหาอุตมมงคลนันทบุรีศรีเมืองน่าน จึงสามารถมองเห็นทิวทัศน์เมืองน่านได้ทั้งเมืองแบบ 360 องศา บนฉากหลังที่เป้นภูเขาโอบล้อมเมือง หากไปเที่ยวน่าน ห้ามพลาดจุดชมวิวที่สวยที่สุดแห่งนี้">
+            </div>
+        </div>
+
+
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+            <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-grey">
+
+
+
+        </footer>
+
+
+        <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+    </script>
+
+
+</body>
+
+</html>
